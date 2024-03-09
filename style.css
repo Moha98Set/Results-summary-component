@@ -1,0 +1,11 @@
+body{
+    background-image:linear-gradient(180deg,white,whitesmoke);
+}
+.co{
+    width: 740px;
+    height: 515px;
+}
+.rad{
+    background-image: linear-gradient(0deg,#2e2be9,#7857ff);
+    border-radius:25px;
+}
