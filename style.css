@@ -4,8 +4,54 @@ body{
 .co{
     width: 740px;
     height: 515px;
+    box-shadow: 30px 20px 35px 1px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    background: white;
 }
 .rad{
     background-image: linear-gradient(0deg,#2e2be9,#7857ff);
     border-radius:25px;
+    color:rgba(255,255,255,0.7);
+    text-align: center;
+}
+.rad h2{
+    color: white;
+}
+.cir{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg,#2e2be9,#7857ff);
+}
+.cir h1{
+    font-size: 6rem;
+    color: white;
+}
+.rect{
+    width:275px;
+    height:45px;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+}
+.rect span{
+    text-align: right;
+}
+.one{
+    background:rgba(255,87,87,0.3);
+}
+.one span{
+    color:rgba(255,87,87,1);
+}
+.two{
+    background: rgba(255,176,31,0.3);
+}
+.three{
+    background: rgba(0,189,145,0.3);
+}
+.four{
+    background: rgba(17,37,212,0.3);
 }
