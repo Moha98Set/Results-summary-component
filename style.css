@@ -2,16 +2,22 @@ body{
     background-image:linear-gradient(180deg,white,whitesmoke);
     font-family:'Hanken Grotesk' !important;
 }
-.co{
+.main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.row{
     width: 740px;
     height: 515px;
     box-shadow: 30px 20px 35px 1px rgba(0,0,0,0.1);
     border-radius: 25px;
     background: white;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    display: flex;
 }
 .rad{
+    width:370px;
     background-image: linear-gradient(0deg,#2e2be9,#7857ff);
     border-radius:25px;
     color:rgba(255,255,255,0.7);
@@ -20,23 +26,30 @@ body{
 .rad h2{
     color: white;
 }
+.rad h3{
+    font-size: 1.4rem;
+}
+.rad2{
+    width:370px;
+}
 .cir{
     width:250px;
     height:250px;
     border-radius: 50%;
     background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
 }
-.cir h1{
+.head1{
     font-size: 6rem;
-    color: white;
     font-weight: 800;
-    padding-top: 10%;
+    color: white;
 }
-.cir h4{
+.head2{
+    margin-top: -15% !important; 
     font-size: 1.3rem;
-    margin-top: -6%;
     color:rgba(255,255,255,0.6);
-
 }
 .rect{
     width:275px;
@@ -46,35 +59,35 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-size: 1.1rem;
-    padding:2%;
+    padding:1%; 
     font-weight: 500;
 }
 .rect span{
     text-align: right;
 }
 .one{
-    background:rgba(255,87,87,0.3);
+    background:rgba(255,87,87,0.1);
 }
 .one span{
     color:rgba(255,87,87,1);
     font-weight: 700;
 }
 .two{
-    background: rgba(255,176,31,0.3);
+    background: rgba(255,176,31,0.1);
 }
 .two span{
     color:rgba(255,176,31,1);
     font-weight: 700;
 }
 .three{
-    background: rgba(0,189,145,0.3);
+    background: rgba(0,189,145,0.1);
 }
 .three span{
     color:rgba(0,189,145,1);
     font-weight: 700;
 }
 .four{
-    background: rgba(17,37,212,0.3);
+    background: rgba(17,37,212,0.1);
 }
 .four span{
     color:rgba(17,37,212,1);
@@ -90,4 +103,13 @@ body{
     padding: 3%;
     font-weight: 400;
     border-radius: 25px;
+}
+.rad2 span{
+    position: relative;
+    top:8%;
+}
+.rad2 img{
+    position: relative;
+    top:20%;
+    left:1.5%;
 }
